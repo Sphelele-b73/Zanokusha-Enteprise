@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit an enquiry to Zanokusha Enterprise - We're ready to help with your product and business needs">
+    <title>Enquiry Form | Zanokusha Enterprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-section">
+                <img src="Files\Images\Zanokusha enterprise logo.png" alt="Zanokusha Enterprise Logo" class="logo" width="60" height="60">
+                <h1>Zanokusha Enterprise</h1>
+            </div>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Submit an Enquiry</h1>
+        <p>Have questions about our products or interested in wholesale opportunities? Please fill out the form below and we'll get back to you as soon as possible.</p>
+
+        <section id="enquiry-form">
+            <form method="post" action="mailto:info@zanokushaenterprise.co.za">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div>
+                    <label for="company">Company Name:</label>
+                    <input type="text" id="company" name="company">
+                </div>
+
+                <div>
+                    <label for="product">Interested Product:</label>
+                    <select id="product" name="product" required>
+                        <option value="">-- Select a Product --</option>
+                        <option value="spinach">Fresh Spinach</option>
+                        <option value="cabbage">Cabbage (Green and Red)</option>
+                        <option value="maize">Fresh Maize</option>
+                        <option value="other">Other / Multiple Products</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="quantity">Estimated Quantity Needed:</label>
+                    <input type="text" id="quantity" name="quantity" placeholder="e.g., 100kg, 50 boxes">
+                </div>
+
+                <div>
+                    <label for="subject">Subject of Enquiry:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Submit Enquiry</button>
+                    <button type="reset">Clear Form</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <h3>What are your minimum order quantities?</h3>
+            <p>For bulk orders, please contact us directly to discuss your specific requirements and volume needs.</p>
+
+            <h3>Do you offer delivery services?</h3>
+            <p>Yes, we offer delivery services for bulk orders. Contact us for delivery options and rates based on your location.</p>
+
+            <h3>What are your payment terms?</h3>
+            <p>We work with our clients to establish flexible payment terms. Please discuss this when placing your order.</p>
+
+            <h3>Are your products certified organic?</h3>
+            <p>While we practice sustainable farming methods, please contact us directly to discuss specific certifications for your requirements.</p>
+        </section>
+
+        <section id="contact-quick">
+            <h2>Other Ways to Reach Us</h2>
+            <p>Prefer to call or visit us in person?</p>
+            <p>
+                <strong>Phone:</strong> +27 83 261 3339<br>
+                <strong>Email:</strong> info@zanokushaenterprise.co.za<br>
+                <strong>Address:</strong> Ward 25 Matshana Reserve, Madlebe, Empangeni 3880, South Africa
+            </p>
+            <p><a href="contact.html">View Full Contact Information</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Zanokusha Enterprise. All rights reserved.</p>
+        <p>Tel: +27 83 261 3339 | Email: info@zanokushaenterprise.co.za</p>
+    </footer>
+</body>
+</html>
