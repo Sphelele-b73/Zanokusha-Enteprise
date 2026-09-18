@@ -1,0 +1,257 @@
+/* ============================================
+   GLOBAL STYLES
+   ============================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9bf7a0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+h1 {
+    color: #e4a405;
+    text-align: center;
+    margin: 0.5em 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #621b02;
+    text-align: center;
+    margin: 1em 0 0.5em 0;
+    font-size: 2em;
+}
+
+p {
+    font-size: 20px;
+    color: #e4a405;
+    margin: 0.8em 0;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+
+p a {
+    color: #e4a405;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* ============================================
+   NAVIGATION & LISTS
+   ============================================ */
+
+li {
+    color: #e4a405;
+    font-size: 20px;
+    list-style: none;
+}
+
+li a {
+    color: #e4a405;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* ============================================
+   HEADER & NAVIGATION
+   ============================================ */
+
+header {
+    background-color: rgba(46, 125, 50, 0.95);
+    padding: 1em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+    flex-wrap: wrap;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo {
+    max-width: 60px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+/* ============================================
+   MAIN CONTENT
+   ============================================ */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+section {
+    margin: 2em 0;
+    padding: 1.5em;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+
+#hero {
+    text-align: center;
+    padding: 3em 1.5em;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN - TABLET
+   ============================================ */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    p a, li a {
+        font-size: 18px;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 0 1em;
+        gap: 1em;
+    }
+
+    .logo-section {
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 1em;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    section {
+        padding: 1em;
+        margin: 1.5em 0;
+    }
+}
+
+/* ============================================
+   RESPONSIVE DESIGN - MOBILE
+   ============================================ */
+
+@media (max-width: 480px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin: 0.5em 0;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    p a, li a {
+        font-size: 16px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    main {
+        padding: 0.5em;
+    }
+
+    section {
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .logo-section h1 {
+        font-size: 1.3em;
+    }
+}
+
